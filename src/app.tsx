@@ -1,8 +1,9 @@
 /* eslint-disable @iceworks/best-practices/no-http-url */
 import { runApp, IAppConfig } from 'ice';
 import { ConfigProvider } from '@alifd/next';
-import PageLoading from '@/components/PageLoading';
-import FrameworkLayout from '@/layouts/FrameworkLayout';
+// import PageLoading from '@/components/PageLoading';
+// import FrameworkLayout from '@/layouts/FrameworkLayout';
+import UserLayout from '@/layouts/UserLayout';
 
 const appConfig: IAppConfig = {
   app: {
@@ -20,7 +21,7 @@ const appConfig: IAppConfig = {
     type: 'browser',
   },
   icestark: {
-    // Layout: FrameworkLayout,
+    Layout: UserLayout,
     // getApps: async () => {
     //   const apps = [{
     //     path: '/seller',
