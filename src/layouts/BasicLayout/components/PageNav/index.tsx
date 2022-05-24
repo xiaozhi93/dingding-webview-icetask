@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+// import { Link } from 'ice';   // 在布局中不能用Link组件
 import { AppLink } from '@ice/stark';
 import { Nav } from '@alifd/next';
 import { asideMenuConfig } from '../../menuConfig';
@@ -49,6 +50,7 @@ function getSubMenuOrItem(item: IMenuItem, index: number, isCollapse: boolean) {
       <AppLink to={item.path}>
         {item.name}
       </AppLink>
+      {/* <Link to={item.path}>{item.name}</Link> */}
     </NavItem>
   );
 

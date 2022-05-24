@@ -17,20 +17,6 @@ const asideMenuConfig = [
     icon: 'account',
   },
   {
-    name: 'Angular',
-    icon: 'set',
-    children: [
-      {
-        path: '/angular',
-        name: 'router contact',
-      },
-      {
-        path: '/angular/detail',
-        name: 'router detail',
-      },
-    ],
-  },
-  {
     name: 'React 微应用',
     icon: 'atm',
     children: [
